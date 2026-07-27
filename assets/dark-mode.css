@@ -1,0 +1,203 @@
+/* ============================================
+   DARK MODE
+   Sistem Inventori Barang Koperasi
+   ============================================ */
+
+body.dark-mode {
+    --bg-body: #0f172a;
+    --bg-card: #1e293b;
+    --bg-navbar: #1e293b;
+    --bg-sidebar: #0f172a;
+    
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    
+    --border-color: #334155;
+    
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+    --shadow: 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.3);
+}
+
+body.dark-mode .sidebar {
+    background: #0f172a;
+}
+
+body.dark-mode .card,
+body.dark-mode .stat-card,
+body.dark-mode .filter-section {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .navbar-top {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .table {
+    color: #e2e8f0;
+}
+
+body.dark-mode .table thead th {
+    border-color: #334155;
+    color: #94a3b8;
+}
+
+body.dark-mode .table tbody td {
+    border-color: #334155;
+}
+
+body.dark-mode .table tbody tr:hover {
+    background: rgba(255,255,255,0.03);
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background: #0f172a;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    background: #0f172a;
+}
+
+body.dark-mode .input-group-text {
+    background: #1e293b;
+    border-color: #334155;
+    color: #94a3b8;
+}
+
+body.dark-mode .modal-content {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-footer {
+    border-color: #334155;
+}
+
+body.dark-mode .btn-close {
+    filter: invert(1);
+}
+
+body.dark-mode .breadcrumb-item.active {
+    color: #e2e8f0;
+}
+
+body.dark-mode .breadcrumb-item a {
+    color: #94a3b8;
+}
+
+body.dark-mode .text-muted {
+    color: #64748b !important;
+}
+
+body.dark-mode .dropdown-menu {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .dropdown-item {
+    color: #e2e8f0;
+}
+
+body.dark-mode .dropdown-item:hover {
+    background: #0f172a;
+}
+
+body.dark-mode .dropdown-divider {
+    border-color: #334155;
+}
+
+body.dark-mode .dataTables_wrapper .dataTables_filter input,
+body.dark-mode .dataTables_wrapper .dataTables_length select {
+    background: #0f172a;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+body.dark-mode .page-link {
+    background: #1e293b;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+body.dark-mode .page-item.active .page-link {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+body.dark-mode .select2-container--bootstrap-5 .select2-selection {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-mode .select2-container--bootstrap-5 .select2-selection__rendered {
+    color: #e2e8f0;
+}
+
+body.dark-mode .badge.bg-light {
+    background: #334155 !important;
+    color: #e2e8f0 !important;
+}
+
+body.dark-mode .bg-light {
+    background: #0f172a !important;
+}
+
+body.dark-mode .total-section {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+body.dark-mode .payment-method {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-mode .payment-method.active {
+    background: rgba(37, 99, 235, 0.15);
+    border-color: #2563eb;
+}
+
+body.dark-mode .keranjang-item {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-mode .timeline-item::before {
+    background: #334155;
+}
+
+body.dark-mode .alert {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .btn-outline-primary {
+    border-color: #3b82f6;
+    color: #60a5fa;
+}
+
+body.dark-mode .btn-outline-secondary {
+    border-color: #64748b;
+    color: #94a3b8;
+}
+
+body.dark-mode .loading-overlay {
+    background: rgba(15, 23, 42, 0.8);
+}
+
+/* Scrollbar for dark mode */
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
