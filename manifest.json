@@ -1,0 +1,24 @@
+{
+    "name": "Sistem Inventori Barang Koperasi",
+    "short_name": "Inventory Koperasi",
+    "description": "Aplikasi manajemen inventaris barang koperasi dengan barcode scanner",
+    "start_url": "/koperasi-inventory/index.php",
+    "display": "standalone",
+    "background_color": "#f1f5f9",
+    "theme_color": "#2563eb",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "assets/img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
